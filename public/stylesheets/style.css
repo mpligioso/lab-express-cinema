@@ -1,0 +1,64 @@
+body {
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #00B7FF;
+  font-weight: bold;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.text {
+  box-sizing: content-box;
+  text-align: left;
+  width: 40%;
+  position: absolute;
+  right: 50px;
+  top: 150px;
+}
+
+.text h1 {
+  font-size: 7em;
+}
+
+button {
+  padding: 20px 50px;
+  border-radius: 45px;
+  border: 0px;
+  font-size: 2em;
+  background-color: white;
+}
+
+button a {
+  text-decoration: none;
+  color: #68A0B5;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  width: 33%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.movie-card p {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
