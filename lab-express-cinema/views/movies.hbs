@@ -1,0 +1,14 @@
+<div>
+  <h2><a href="/">{{title}}</a></h2>
+  <p>Click on the movie to check the showtimes!</p>
+</div>
+
+<div class="flex">
+  {{#each movieArray}}
+    <div class="movie-card">
+      <img src="{{this.image}}">
+      <p>{{this.title}}</p>
+      <a href="/movies/{{this._id}}">See more</a>
+    </div>
+  {{/each}}
+</div>
